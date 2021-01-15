@@ -7,6 +7,8 @@
 <script>
   import config from '@/utils/config';
 
+
+
   export default {
     name: 'App',
     created() {
