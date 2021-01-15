@@ -87,18 +87,23 @@
 <style scoped lang="scss">
   .inpBox {
     width: 400px;
-    margin: 0 auto;
+    height: 300px;
+    /*margin: 0 auto;*/
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    box-shadow: 0 0 10px #ddd;
 
-    /*.position {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 20px;
-    }*/
+    .position {
+      width: 70%;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
 
     button {
-      width: 100%;
+      width: 70%;
       height: 30px;
       margin-top: 20px;
       font-size: 14px;

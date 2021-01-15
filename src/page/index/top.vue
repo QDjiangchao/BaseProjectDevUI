@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="top">
-      哈哈哈哈哈哈
+      各种按钮
       <a-button type="link" @click="logout">退出</a-button>
     </div>
   </div>
