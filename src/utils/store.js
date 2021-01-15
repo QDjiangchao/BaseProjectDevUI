@@ -1,6 +1,6 @@
 import {validatenull} from '@/utils/validate';
 
-const keyName = 'antd-';
+const keyName = 'project-';
 
 /**
  * 存储localStorage

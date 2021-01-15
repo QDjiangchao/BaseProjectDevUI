@@ -1,6 +1,6 @@
 import Cookies from 'js-cookie'
 
-const TokenKey = 'antd-access-token'
+const TokenKey = 'project-access-token'
 
 export function getToken() {
   return Cookies.get(TokenKey)
